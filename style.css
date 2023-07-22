@@ -6,13 +6,16 @@
 /* Utilities */
 
 body{
-    background-color: rgb(255, 215, 255);
+    background: #B3FFAB;  
+    background: linear-gradient(to top right, #12FFF7, #B3FFAB); 
     padding: 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
     margin-block: 2rem;
     text-align: center;
+    color: white;
+    text-shadow: 0 0 2px black;
 }
 
 .accordian{
@@ -22,7 +25,7 @@ h1{
     padding: 0.5rem 2rem;
 }
 .accordian:hover{
-    box-shadow: 0 0 10px rgb(248, 143, 248);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 .question{
     display: flex;
